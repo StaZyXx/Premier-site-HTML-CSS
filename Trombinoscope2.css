@@ -1,0 +1,164 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+p{
+    margin: 3%;
+}
+a{
+    text-decoration: none;
+}
+
+/* HAEDER */
+
+header {
+    display: flex;
+    flex-direction: row;
+}
+h1 {
+    display: flex ;
+    color: #3D2683;
+    margin-left: 15%;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+}
+.button {
+    background-color: #3D2683;
+    color: white;
+    width: 100%;
+    border: 1px rgb(255, 255, 255) solid;
+    line-height: 0.5%;
+    text-align: center;
+}
+.button2 {
+    background-color: #3D2683;
+    color: white;
+    width: 100%;
+    border: 1px #3D2683 solid;
+    line-height: 0.5%;
+    padding-bottom: 1%;
+    text-align: center;
+}
+.imgbutton{
+    margin-bottom: 5%;
+}
+*{
+margin: 0;
+padding: 0;
+font-family: Arial, Helvetica, sans-serif;
+}
+.txt-nav{
+    margin: 2%;
+}
+
+/* TROMBINOSCOPE */
+
+h2{
+    text-align: center;
+}
+
+main{
+    display: flex;
+    flex-direction:column;
+    padding: 5vw;
+    background-image: url(./assets/bg.jpg);
+    background-size: 100%
+}
+.bloc-prs{
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;
+    text-align: center;
+    font-size: large;
+    border-radius: 15px;
+}
+.img-prs{
+    width: 16vw;
+    height: 12vw;
+    border-radius: 10px;
+}
+.ligne-img{
+    display: flex;
+    flex-direction: row;
+    padding: 1%;
+    justify-content: space-evenly;
+}
+
+/* FOOTER */
+
+.social-media{
+    width: 3vw;
+    height: 3vw;
+    padding: 5px 0px;
+}
+#social{
+    display: flex;
+    flex-direction: column;
+}
+footer{
+    display: flex;
+    background-color: #3D2683;
+    justify-content: space-evenly;
+}
+
+h3{
+    margin-top: 0%;
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+}
+#partenaires{
+    color: white;
+    font-size: xx-large;
+    text-align:left;
+}
+
+/* RESPONSIVE */
+
+@media screen and (max-width:1015px) {
+     h1{
+        font-size: x-large;
+    }
+}
+
+@media screen and (max-width:750px) {
+    .bloc-prs{
+        font-size: x-small;
+    }
+    main{
+        padding: 3vw;
+    }
+}
+
+@media screen and (max-width:580px) {
+    h1{
+        font-size: medium;
+    }
+    h3{
+        font-size: small;
+    }
+    #partenaires{
+        font-size: small;
+    }
+    .imgbutton{
+        width: 4vw;
+    }
+    
+}
+@media screen and (max-width:350px) {
+    .bloc-prs{
+        font-size: xx-small;
+    }
+    #partenaires{
+        font-size: x-small;
+    }
+    p{
+        font-size: 5px;
+    }
+    h2{
+        font-size: smaller;
+    }
+    
+}

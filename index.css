@@ -1,0 +1,224 @@
+/* HEADER */
+
+header {
+    display: flex;
+    flex-direction: row;
+}
+h1 {
+    display: flex ;
+    color: #3D2683;
+    margin-left: 15%;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+}
+.button {
+    background-color: #3D2683;
+    color: white;
+    width: 100%;
+    border: 1px rgb(255, 255, 255) solid;
+    line-height: 0.5%;
+    text-align: center;
+}
+.button2 {
+    background-color: #3D2683;
+    color: white;
+    width: 100%;
+    border: 1px #3D2683 solid;
+    line-height: 0.5%;
+    padding-bottom: 1%;
+    text-align: center;
+}
+.imgbotton{
+    margin-bottom: 5%;
+}
+*{
+margin: 0;
+padding: 0;
+font-family: Arial, Helvetica, sans-serif;
+}
+.txt-nav{
+    margin: 2%;
+}
+
+/*Acceuil*/
+
+#image1 {
+    width: 35vw;
+    height: 20vw auto;
+    margin: right 10px;
+}
+#histoire1 {
+    background-color: #3D2683;
+    color: white;
+    margin: 0%;
+    padding-left: 3%;
+    padding-top: 5%;
+    padding-bottom: 1%;
+    padding-right: 3%;
+    letter-spacing: 1px;
+    font-size:larger ;  
+    border: 2px white solid;
+}
+#contener1 {
+    display: flex;
+    flex-direction: row;
+}
+#histoire2 {
+    background-color: #3D2683;
+    color: white;
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
+    padding-top: 3%;
+    border: 2px white solid;
+    letter-spacing: 1px;
+}
+#contener2 {
+    display: flex;
+}
+#image2 {
+    width: 35vw;
+    height: 20vw auto;
+    margin: right 10px;
+}
+#campus1 {
+    text-align: center;
+    padding: 2%;
+    color: #3D2683;
+    font-weight: bold;
+    font-size: x-large;
+}
+#campus2{
+    text-align: center;
+}
+.para1{
+    padding: 0.5%;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+}
+.para2{
+    text-align: center;
+}
+#formation1 {
+    background: white;
+}
+#formation2 {
+    padding-top: 3%;
+    text-align: center;
+    color: #3D2683;
+    letter-spacing: 1px;
+
+}
+.annee {
+    display: flex;
+    flex-direction: row auto;
+    padding-bottom: 5%;
+    height: 10% auto;
+}
+.ans {
+    padding: 2%;
+}
+.strong{
+    font-weight: bold;
+}
+
+/* FOOTER  */
+
+.social-media{
+    width: 3vw;
+    height: 3vw;
+    padding: 5px 0px;
+}
+#social{
+    display: flex;
+    flex-direction: column;
+}
+footer{
+    display: flex;
+    background-color: #3D2683;
+    justify-content: space-evenly;
+}
+a{
+    text-decoration: none;
+}
+h3{
+    padding: 2%;
+    margin-top: 0%;
+    color: white;
+    text-align: center;
+}
+#partenaires{
+    color: white;
+    text-align:left;
+    padding: 1%;
+}
+
+/* RESPONSIVE */
+
+@media screen and (min-width: 1040px){
+    .button{
+        font-size: x-large;
+    }
+    #histoire1{
+        font-size: x-large;
+    }
+    #histoire2{
+        font-size: x-large;
+    }
+    #campus2{
+        font-size: x-large;
+    }
+    #formation1{
+        font-size: x-large;
+    }
+}
+@media  screen and (max-width: 730px) {
+    *{
+        font-size: small;
+    }
+    #titre{
+        padding: 5%;
+    }
+    #imgbutton{
+        padding: 4%;
+        width: 4vw;
+        height: 4vw;
+    }
+    .button{
+        padding-bottom: 3%;
+        font-size: smaller;
+    }
+    #contener1{
+        flex-direction: column;
+    }
+    #image1{
+        width: auto;
+        height: auto;
+    }
+    #contener2{
+        flex-direction: column;
+    }
+    #image2{
+        width: auto;
+        height: auto;
+    }
+    .ans{
+        font-size: smaller;
+    }
+    .annee{
+        flex-direction: column;
+        padding: 5%;
+    }
+    #footer-txt{
+        font-size: small;
+    }
+}
+@media screen and (max-width:580px) {
+    .imgbutton{
+        width: 4vw;
+    }
+}

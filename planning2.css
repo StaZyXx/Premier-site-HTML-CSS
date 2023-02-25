@@ -1,0 +1,283 @@
+/* Header */
+
+header {
+    display: flex;
+    flex-direction: row;
+}
+h1 {
+    display: flex ;
+    color: #3D2683;
+    margin-left: 15%;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+}
+.button {
+    background-color: #3D2683;
+    color: white;
+    width: 100%;
+    border: 1px rgb(255, 255, 255) solid;
+    line-height: 0.5%;
+    text-align: center;
+}
+.button2 {
+    background-color: #3D2683;
+    color: white;
+    width: 100%;
+    border: 1px #3D2683 solid;
+    line-height: 0.5%;
+    padding-bottom: 1%;
+    text-align: center;
+}
+.imgbotton{
+    margin-bottom: 5%;
+}
+*{
+margin: 0;
+padding: 0;
+font-family: Arial, Helvetica, sans-serif;
+}
+.txt-nav{
+    margin: 2%;
+}
+
+/* Planning */
+
+table{
+    width: 100%;
+    margin: 0%;
+    justify-content: space-evenly;
+    border: #3D2683 solid 1px;
+    padding: 0.2%;
+    height: 100rem;
+    border-radius: 10px;
+}
+h2{
+    text-align: center;
+    color: #3D2683;
+    font-size: 40px;
+    margin:10px 0px 30px 0px;
+}
+.horaire{
+    color: #3D2683;
+    border-bottom: #3D2683 solid 1px ;
+    font-size: xx-large;
+}
+.jours{
+    font-size: xx-large;
+    width: 12.5%;
+    color: #3D2683;
+    border: 1px #3D2683 solid;
+    border-radius: 10px;
+}
+#jours1{
+    width: 8%;
+}
+.html{
+    background-color: #7765E0;
+    padding: 0.5%;
+    border-radius: 10px;
+    font-size: x-large;
+    border: 1px #3D2683 solid;
+}
+.itwo{
+    background-color:#FF8A60;
+    padding: 0.5%;
+    border-radius: 10px;
+    font-size: x-large;
+    border: 1px #3D2683 solid;
+}
+.office{
+    background-color: #E0D85C;
+    padding: 0.5%;
+    border-radius: 10px;
+    font-size: x-large;
+    border: 1px #3D2683 solid;
+}
+.week{
+    background-color: lightgrey;
+    border: 1px #3D2683 solid;
+    border-radius: 10px;
+}
+main{
+    padding: 0% 3% 3% 3%;
+}
+
+/* Footer */
+
+#partenaires{
+    color: white;
+    font-size: xx-large;
+    text-align:left;
+}
+h3{
+    margin-top: 0%;
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+}
+footer{
+    display: flex;
+    background-color: #3D2683;
+    justify-content: space-evenly;
+}
+#social{
+    display: flex;
+    flex-direction: column;
+}
+.social-media{
+    width: 3vw;
+    height: 3vw;
+    padding: 5px 0px;
+}
+
+/* RESPONSIVE */
+
+@media screen and (max-width:1350px) {
+    .horaire{
+        font-size: x-large;
+    }
+    .html{
+        font-size: large;
+    }
+    .itwo{
+        font-size: large;
+    }
+    .office{
+        font-size: large;
+    }
+    
+}
+@media screen and (max-width:1245px) {
+    .jours{
+        font-size: x-large;
+    }
+    table{
+        height: 75rem;
+    }
+    h2{
+        font-size: x-large;
+    }
+    
+}
+@media screen and (max-width:1050px){
+    .html{
+        font-size: small;
+    }
+    .itwo{
+        font-size: medium;
+    }
+    .office{
+        font-size: medium;
+    }
+    .jours{
+        font-size: large;
+    }
+}
+@media screen and (max-width:875px) {
+    .horaire{
+        font-size: large;
+    }
+    .html{
+        font-size: x-small;
+    }
+    .itwo{
+        font-size: x-small;
+    }
+    .office{
+        font-size: x-small;
+    }
+    h3{
+        font-size: x-large;
+    }
+    #partenaires{
+        font-size: larger;
+    }
+    
+}
+@media screen and (max-width:750px) {
+    .horaire{
+        font-size: small;
+    }
+    .jours{
+        font-size: small;
+    }
+    .html{
+        font-size: xx-small;
+    }
+    .itwo{
+        font-size: xx-small;
+    }
+    .office{
+        font-size: xx-small;
+    }
+    table{
+        height: 50rem;
+    }
+}
+@media screen and (max-width:600px) {
+    .jours{
+        font-size: x-small ;
+    }
+    main{
+        padding: 2%;
+    }
+    .html{
+        font-size: 8px;
+    }
+    .itwo{
+        font-size: 8px;
+    }
+    .office{
+        font-size: 8px;
+    }
+    table{
+        height: 25rem;
+    }
+    h1{
+        font-size: large;
+    }
+    
+}
+@media screen and (max-width:450px) {
+    h3{
+        font-size: small;
+    }
+    #partenaires{
+        font-size: small;
+    }
+
+}
+@media screen and (max-width:375px) {
+    .html{
+        font-size: 5px;
+    }
+    .itwo{
+        font-size: 5px;
+    }
+    .office{
+        font-size: 5px;
+    }
+    .horaire{
+        font-size: x-small;
+    }
+    .jours{
+        font-size: xx-small;
+    }
+    h2{
+        font-size: large;
+        margin: 5px 0px 15px 0px;
+    }
+    #partenaires{
+        font-size: x-small;
+    }
+    h1{
+        font-size: medium;
+    }
+}
+@media screen and (max-width:580px) {
+    .imgbutton{
+        width: 4vw;
+    }
+}
